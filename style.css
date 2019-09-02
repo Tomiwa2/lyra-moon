@@ -1,0 +1,46 @@
+* {
+	font-family: 'Courier';
+	line-height: 1.7;
+	margin: 0;
+	padding: 0;
+}
+
+img{
+	float:right;
+	position: relative;
+	top: -80px;
+	right: 20px;
+	height: 150px;
+	width: 150px;
+
+
+}
+
+header h1 {
+	font-size: 45px;
+}
+
+header p {
+	display: inline;
+}
+
+ul 
+{
+	margin-left: 40px;
+}
+
+#abilities, #activities, #schooling, #medal, header
+{
+	margin-left: 60px;
+	margin-top: 20px;
+	margin-bottom: 10px;
+	color: #808080;
+ 
+}
+ 
+ main{
+ 	width: 1500px;
+ 	margin-right: auto;
+ 	margin-left: auto;
+ 	background-color: #eee;
+ }
