@@ -59,6 +59,24 @@
 <h1>Awards</h1>
 <p>Best Overall in Senior Secondary School</p>  
 </section>
-</main>    
+
+<form onsubmit="return validateForm()">
+  <h2 id="Contact">Contact Me</h2>
+  <div class="name-alert"></div>
+  <input type="text" id="inputname" placeholder="Name" minlength="4">
+  <input type="email" id="inputemail" placeholder="Enter your email">
+  <input type="text" id="inputtitle" placeholder="Title">
+  <textarea placeholder="Enter your message" rows="4" cols="40" id="message" minlength="20"></textarea>
+  
+  <button type="Submit">
+    Send
+  </button>
+
+</form>
+
+
+</main>   
+
+  <script src="function.js"></script>
 </body>
 </html>
